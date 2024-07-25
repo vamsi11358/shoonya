@@ -82,7 +82,7 @@ export default function Layout() {
               id="filterType"
               value={filterType}
               onChange={handleTypeChange}
-              className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
+              className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
             >
               <option value="">Select a type</option>
               <option value="Yoga">Yoga</option>
@@ -95,7 +95,7 @@ export default function Layout() {
               id="filterDate"
               value={filterDate}
               onChange={handleDateChange}
-              className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
+              className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-white hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
             >
               <option value="">Select a date</option>
               <option value="2023-01-01">January 2023</option>
@@ -110,7 +110,7 @@ export default function Layout() {
             placeholder="Search retreats by title"
             value={searchTerm}
             onChange={handleSearchChange}
-            className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
+            className="block px-4 py-2 border border-gray-300 rounded-md bg-blue-900 text-gray hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 transition ease-in-out duration-300"
           />
         </div>
       </div>
